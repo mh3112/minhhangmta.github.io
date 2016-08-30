@@ -1,0 +1,82 @@
+*{margin: 0px; padding: 0px;}
+ul li{list-style: none}
+.clearfix::after{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.clearfix{
+  clear: both;
+  display: block;
+}
+body {
+    background-image: url("homepage.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    font-family: arial;
+    font-size: 14px;
+}
+.header_container{
+  text-align: center;
+
+}
+.wrapper_container{
+  width: 800px;
+  margin: 0px auto;
+}
+.search_menu{
+  width: 1200px;
+  margin: 0px auto;
+}
+.info{
+  /*width: 500px;
+  height: 760px;
+  margin: 750px auto;*/
+}
+/*this is style header*/
+/*#main_menu{float: left;background: white;}*/
+#search{
+  float: right;
+}
+#main_menu>li{float: left;}/*>li {} nhung thang li gan nhat*/
+#main_menu a{
+  display: block;
+  padding: 15px 50px 10px 50px;
+  /*border-right: 1px solid #E8E6E6;*/
+  border: 1px solid #E8E6E6;
+  border-radius: 5px;
+  font-family: cursive;;
+  font-size: 17px;
+  text-decoration:none;
+  color:black;
+  column-gap: red;
+}
+#main_menu>li a:hover{
+  color: red;
+}
+#main_menu ul.sub_menu{
+  display: none;
+  position: absolute;
+}
+#main_menu li:hover.sub_menu{
+  display: block;
+}
+#copyright p{
+  text-align: center;
+  padding: 25px;
+  line-height: 40px;
+  /*margin: 760px auto;*/
+}
+#intro{
+  text-align: center;
+  font-family: "Bitter",serif;
+  font-size: 70px;
+  font-style: italic;
+  margin-bottom: 25px;
+  line-height: 500px;
+  color: #0064FF;
+}
